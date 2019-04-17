@@ -21,6 +21,10 @@ class Rectangle{
     }
   }
   
+  check(){
+   return [this.x,this.y,this.angle]
+  }
+  
   
   draw(){
     push()
